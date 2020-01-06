@@ -2,7 +2,7 @@ import axios from 'axios'
 import { Message } from 'element-ui'
 
 // api的base_url
-axios.defaults.baseURL = process.env.VUE_APP_API_ROOT
+axios.defaults.baseURL = window.serverConfig.serverAddress
 // request timeout
 axios.defaults.timeout = 5000
 

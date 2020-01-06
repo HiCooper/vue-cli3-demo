@@ -1,3 +1,3 @@
 window.serverConfig = {
-  serverAddress: 'http://192.168.3.190:5010'
+  serverAddress: 'http://127.0.0.1:5010'
 }

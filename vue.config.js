@@ -14,7 +14,7 @@ module.exports = {
     )
     if (process.env.NODE_ENV === 'production') {
       // 为生产环境修改配置...
-      console.log('启动生产环境')
+      console.log('正在打包...')
     } else {
       // 为开发环境修改配置...
       console.log('启动开发环境')
@@ -23,7 +23,7 @@ module.exports = {
   devServer: {
     open: process.platform === 'darwin',
     host: '127.0.0.1',
-    port: 8011,
+    port: 3001,
     https: false,
     hotOnly: false,
     proxy: {

@@ -14,14 +14,14 @@
       <template v-for="item in asideMenuConfig">
         <router-link v-if="!item.children" :to="item.path" :key="item.name">
           <el-menu-item :index="item.path">
-            <i v-if="item.icon" :class="item.icon"></i>
+            <i v-if="item.icon" :class="item.icon" />
             <span v-if="item.name" slot="title">{{item.name}}</span>
           </el-menu-item>
         </router-link>
 
         <el-submenu v-else :index="item.name || item.path" :key="item.name">
           <template slot="title">
-            <i v-if="item && item.icon" :class="item.icon"></i>
+            <i v-if="item && item.icon" :class="item.icon" />
             <span v-if="item && item.name" slot="title">{{item.name}}</span>
           </template>
           <template v-for="child in item.children" v-if="!child.hidden">

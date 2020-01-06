@@ -1,8 +1,8 @@
 <template>
   <div class="app-wrapper" >
     <div class="main-container">
-      <nav-bar></nav-bar>
-      <app-main></app-main>
+      <nav-bar />
+      <app-main />
     </div>
   </div>
 </template>
