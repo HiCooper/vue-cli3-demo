@@ -1,8 +1,8 @@
 
 // 布局组件
-import BlankLayout from './layouts/BlankLayout'
-
-import Home from './views/Home.vue'
+import BlankLayout from '@/layout/BlankLayout'
+import HeaderLayout from '@/layout/HeaderLayout'
+import Home from '@/views/Home'
 
 const routerConfig = [
   {
@@ -14,11 +14,11 @@ const routerConfig = [
   {
     path: '/about',
     name: 'about',
-    layout: BlankLayout,
+    layout: HeaderLayout,
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import('./views/About.vue')
+    component: () => import('../views/About.vue')
   }
 ]
 

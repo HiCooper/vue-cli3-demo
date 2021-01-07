@@ -11,3 +11,9 @@ export default {
   name: 'AppMain'
 }
 </script>
+<style scoped lang="scss">
+ .app-main {
+   position: relative;
+   height: 100%;
+ }
+</style>
