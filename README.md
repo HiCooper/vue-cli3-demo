@@ -1,4 +1,5 @@
-# xihu-result-front
+# vue-cli3-template
+> use element-ui
 
 ## Project setup
 ```
