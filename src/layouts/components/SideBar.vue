@@ -54,7 +54,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .logo {
   display: flex;
   justify-content: center;
